@@ -1,5 +1,5 @@
 /**
- * @class Object
+ * @class builtin-Object
  *
  * Creates an object wrapper.
  *
@@ -541,7 +541,7 @@
  * This method allows precise addition to or modification of a
  * property on an object. Normal property addition through assignment
  * creates properties which show up during property enumeration
- * (for...in loop or {@link Object#keys} method), whose values may be
+ * (for...in loop or {@link builtin-Object#keys} method), whose values may be
  * changed, and which may be deleted. This method allows these extra
  * details to be changed from their defaults.
  *
@@ -641,7 +641,7 @@
  * property. A property in JavaScript consists of a string-valued name
  * and a property descriptor. Further information about property
  * descriptor types and their attributes can be found in
- * {@link Object#defineProperty}.
+ * {@link builtin-Object#defineProperty}.
  *
  * **NOTE:** This method is part of the ECMAScript 5 standard.
  *
@@ -702,7 +702,7 @@
  *     alert(Object.keys(my_obj)); // will alert only foo
  *
  * If you want all properties, even the not enumerable, see
- * {@link Object#getOwnPropertyNames}.
+ * {@link builtin-Object#getOwnPropertyNames}.
  *
  * **NOTE:** This method is part of the ECMAScript 5 standard.
  *
@@ -722,7 +722,7 @@
  * enumerable and non-enumerable properties found directly upon
  * obj. The ordering of the enumerable properties in the array is
  * consistent with the ordering exposed by a for...in loop (or by
- * {@link Object#keys}) over the properties of the object. The
+ * {@link builtin-Object#keys}) over the properties of the object. The
  * ordering of the non-enumerable properties in the array, and among
  * the enumerable properties, is not defined.
  *
@@ -748,7 +748,7 @@
  *
  *     print(Object.getOwnPropertyNames(my_obj).sort()); // prints "foo, getFoo"
  *
- * If you want only the enumerable properties, see {@link Object#keys}
+ * If you want only the enumerable properties, see {@link builtin-Object#keys}
  * or use a for...in loop (although note that this will return
  * enumerable properties not found directly upon that object but also
  * along the prototype chain for the object unless the latter is
@@ -833,8 +833,8 @@
  *
  * Objects are extensible by default: they can have new properties
  * added to them, and can be modified. An object can be marked as
- * non-extensible using {@link Object#preventExtensions},
- * {@link Object#seal}, or {@link Object#freeze}.
+ * non-extensible using {@link builtin-Object#preventExtensions},
+ * {@link builtin-Object#seal}, or {@link builtin-Object#freeze}.
  *
  *     // New objects are extensible.
  *     var empty = {};

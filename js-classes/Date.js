@@ -1,5 +1,5 @@
 /**
- * @class Date
+ * @class builtin-Date
  *
  * Creates `Date` instances which let you work with dates and times.
  *
@@ -148,7 +148,7 @@
  * milliseconds since January 1, 1970, 00:00:00 UTC. The local time zone is used to interpret
  * arguments that do not contain time zone information. This function is useful for setting date
  * values based on string values, for example in conjunction with the `setTime` method and the
- * {@link Date} object.
+ * {@link builtin-Date} object.
  *
  * Given a string representing a time, parse returns the time value. It accepts the IETF standard (RFC
  * 1123 Section 5.2.14 and elsewhere) date syntax: `"Mon, 25 Dec 1995 13:30:00 GMT"`. It understands
@@ -795,7 +795,7 @@
  * @method toDateString
  * Returns the "date" portion of the Date as a human-readable string in American English.
  *
- * {@link Date} instances refer to a specific point in time. Calling `toString` will return the
+ * {@link builtin-Date} instances refer to a specific point in time. Calling `toString` will return the
  * date formatted in a human readable form in American English. In SpiderMonkey, this consists of the
  * date portion (day, month, and year) followed by the time portion (hours, minutes, seconds, and time
  * zone). Sometimes it is desirable to obtain a string of the date portion; such a thing can be
@@ -949,7 +949,7 @@
  * @method toTimeString
  * Returns the "time" portion of the Date as a human-readable string.
  *
- * {@link Date} instances refer to a specific point in time. Calling `toString` will return the
+ * {@link builtin-Date} instances refer to a specific point in time. Calling `toString` will return the
  * date formatted in a human readable form in American English. In SpiderMonkey, this consists of the
  * date portion (day, month, and year) followed by the time portion (hours, minutes, seconds, and
  * time zone). Sometimes it is desirable to obtain a string of the time portion; such a thing can be

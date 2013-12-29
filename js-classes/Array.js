@@ -1,11 +1,11 @@
 /**
- * @class Array
+ * @class builtin-Array
  *
  * In JavaScript, the `Array` property of the global object is a constructor for
  * array instances.
  *
  * An array is a JavaScript object. Note that you shouldn't use it as an
- * associative array, use {@link Object} instead.
+ * associative array, use {@link builtin-Object} instead.
  *
  * # Creating an Array
  *
@@ -418,7 +418,7 @@
  * Object references (and not the actual object): `concat` copies object references into the new
  * array. Both the original and new array refer to the same object. That is, if a referenced object is
  * modified, the changes are visible to both the new and original arrays.
- * Strings and numbers (not {@link String} and {@link Number} objects): `concat` copies the values of
+ * Strings and numbers (not {@link String} and {@link builtin-Number} objects): `concat` copies the values of
  * strings and numbers into the new array.
  *
  * Any operation on the new array will have no effect on the original arrays, and vice versa.
@@ -486,7 +486,7 @@
  * *   For object references (and not the actual object), `slice` copies object references into the
  * new array. Both the original and new array refer to the same object. If a referenced object
  * changes, the changes are visible to both the new and original arrays.
- * *   For strings and numbers (not {@link String} and {@link Number} objects), `slice` copies strings
+ * *   For strings and numbers (not {@link String} and {@link builtin-Number} objects), `slice` copies strings
  * and numbers into the new array. Changes to the string or number in one array does not affect the
  * other array.
  *
@@ -546,7 +546,7 @@
  * Returns a string representing the array and its elements. Overrides the `Object.prototype.toString`
  * method.
  *
- * The {@link Array} object overrides the `toString` method of {@link Object}. For Array objects, the
+ * The {@link builtin-Array} object overrides the `toString` method of {@link builtin-Object}. For Array objects, the
  * `toString` method joins the array and returns one string containing each array element separated by
  * commas. For example, the following code creates an array and uses `toString` to convert the array
  * to a string.

@@ -503,7 +503,7 @@
  * If the regular expression includes the `g` flag, the method returns an Array containing all matches. If there were no matches,
  * the method returns `null`.
  *
- * The returned {@link Array} has an extra `input` property, which contains the regexp that generated it as a result. In addition,
+ * The returned {@link builtin-Array} has an extra `input` property, which contains the regexp that generated it as a result. In addition,
  * it has an `index` property, which represents the zero-based index of the match in the string.
  *
  * In the following example, `match` is used to find "Chapter" followed by 1 or more numeric characters followed by a decimal point
@@ -530,7 +530,7 @@
  *
  * `matches_array` now equals `['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c', 'd', 'e']`.
  *
- * @param {RegExp} regexp A {@link RegExp} object. If a non-RegExp object `obj` is passed, it is
+ * @param {RegExp} regexp A {@link builtin-RegExp} object. If a non-RegExp object `obj` is passed, it is
  * implicitly converted to a RegExp by using `new RegExp(obj)`.
  * @return {Array} Contains results of the match (if any).
  */

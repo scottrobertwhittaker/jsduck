@@ -1,5 +1,5 @@
 /**
- * @class Number
+ * @class builtin-Number
  *
  * Creates a wrapper object to allow you to work with numerical values.
  *

@@ -1,5 +1,5 @@
 /**
- * @class Function
+ * @class builtin-Function
  *
  * Every function in JavaScript is actually a `Function` object.
  *
@@ -241,7 +241,7 @@
  * Returns a string representing the source code of the function. Overrides the
  * `Object.toString` method.
  *
- * The {@link Function} object overrides the `toString` method of the Object object; it does
+ * The {@link builtin-Function} object overrides the `toString` method of the Object object; it does
  * not inherit Object.toString. For `Function` objects, the `toString` method returns a string
  * representation of the object.
  *

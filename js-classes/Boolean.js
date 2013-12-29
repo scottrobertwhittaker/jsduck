@@ -1,5 +1,5 @@
 /**
- * @class Boolean
+ * @class builtin-Boolean
  *
  * The `Boolean` object is an object wrapper for a boolean value.
  *

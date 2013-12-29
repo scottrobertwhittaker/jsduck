@@ -1,5 +1,5 @@
 /**
- * @class RegExp
+ * @class builtin-RegExp
  *
  * Creates a regular expression object for matching text according to a pattern.
  *
